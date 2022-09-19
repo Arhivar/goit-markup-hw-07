@@ -95,15 +95,25 @@ body {
   color: var(--hover-color);
 }
 
-.page-logo {
+.header-logo {
   margin-right: 93px;
+  color: var(--first-logo-color);
+}
+
+.logo {
   font-family: "Raleway";
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
   letter-spacing: 0.03em;
-  color: var(--first-logo-color);
   text-decoration: none;
+}
+
+.footer-logo {
+  font-style: normal;
+  display: inline-block;
+  margin-bottom: 20px;
+  color: var(--main-color);
 }
 
 .span-logo {
@@ -228,19 +238,6 @@ body {
 
 .footer-li:not(:last-child) {
   margin-bottom: 9px;
-}
-
-.page-footer-logo {
-  font-style: normal;
-  display: inline-block;
-  margin-bottom: 20px;
-  font-family: "Raleway";
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
-  color: var(--main-color);
-  text-decoration: none;
 }
 
 .address-link {
