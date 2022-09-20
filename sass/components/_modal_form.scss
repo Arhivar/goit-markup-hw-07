@@ -2,14 +2,17 @@
     display: flex;
     flex-direction: column;
 }
-.modal-form-label {
-    margin-bottom: 20px;
+.modal-form__label {
+    margin-bottom: 10px;
+    &:nth-child(4){
+        margin-bottom: 20px;
+    }
 }
-.modal-form-label-cont {
+.modal-form__label-cont {
     position: relative;
     display: block;
 }
-.modal-form-desc {
+.modal-form__desc {
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.01em;
@@ -17,7 +20,7 @@
     margin-bottom: 4px;
     display: block;
 }
-.modal-form-input {
+.modal-form__input {
     width: 100%;
     height: 40px;
     border-radius: 4px;
@@ -29,7 +32,7 @@
         border-color: var(--hover-color);
     }
 }
-.modal-form-input-icon {
+.modal-form__input-icon {
     position: absolute;
     top: 50%;
     left: 12px;
@@ -43,14 +46,14 @@
     }
 }
 
-.modal-label-icons {
+.modal-form__label-icons {
     width: 18px;
     height: 18px;
 }
 
 
 
-.modal-form-comm {
+.modal-form__comm {
     display: block;
     width: 100%;
     height: 120px;
@@ -70,7 +73,7 @@
         border-color: var(--hover-color);
     }
 }
-.modal-form-check-place {
+.modal-form__check-place {
     justify-content: center;
     display: flex;
     align-items: center;
@@ -82,12 +85,12 @@
     color: var(--second-icon-color);
 }
 
-.modal-form-check {
+.modal-form__check {
     position: absolute;
     appearance: none;
 }
 
-.modal-form-check-cont {
+.modal-form__check-cont {
     width: 16px;
     height: 15px;
     border: 1px solid #303030;
@@ -96,22 +99,22 @@
     margin-right: 10px;
     transition: background-color var(--transitions-dur-and-func),
         outline var(--transitions-dur-and-func);
-    .modal-form-check:checked+& {
+    .modal-form__check:checked+& {
         background-color: var(--hover-color);
     }
     &:focus {
         outline: none;
     }
 }
-.modal-form-check-cont-icon {
+.modal-form__check-cont-icon {
     display: none;
     fill: var(--main-color);
     transition: display var(--transitions-dur-and-func);
-    .modal-form-check:checked+.modal-form-check-cont & {
+    .modal-form__check:checked+.modal-form__check-cont & {
         display: block;
     }
 }
-.modal-form-button {
+.modal-form__button {
     min-width: 200px;
     min-height: 50px;
     align-self: center;
@@ -131,10 +134,10 @@
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     }
 }
-.modal-inform-link {
+.modal-form__info-link {
     color: var(--hover-color);
 }
-.modal-form-title {
+.modal-form__title {
     font-weight: 700;
     font-size: 20px;
     line-height: 1.15;

@@ -1,15 +1,15 @@
-.page-footer-container {
+.page-footer__container {
     display: flex;
     align-items: baseline;
     justify-content: space-between;
 }
-.foot-contact-cont {
+.page-footer__contacts-container {
     margin-right: 70px;
 }
-.foot-icon {
+.page-footer__image{
     fill: var(--main-color);
 }
-.foot-cont-icon {
+.page-footer__cont-icon{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -23,7 +23,13 @@
         background-color: var(--hover-color);
     }
 }
-.foot-icon-wrapper {
+.page-footer__icon-list{
+    display: flex;
+    justify-content: center;
+    column-gap: 10px;
+    padding-bottom: 30px;
+}
+.page-footer__icon-container {
     margin-right: 93px;
 }
 .page-footer {
@@ -31,10 +37,10 @@
     padding-top: 60px;
     padding-bottom: 60px;
 }
-.footer-li:not(:last-child) {
+.page-footer__adress-li:not(:last-child) {
     margin-bottom: 9px;
 }
-.address-link {
+.page-footer__adress-link{
     margin-bottom: 9px;
     font-style: normal;
     font-weight: 400;
@@ -44,7 +50,7 @@
     color: var(--main-color);
 }
 
-.foot-cont-link {
+.page-footer__contacts-link {
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -52,8 +58,7 @@
     letter-spacing: 0.03em;
     color: var(--foot-cont-color);
 }
-
-.foot-icon-page {
+.page-footer__icon-page {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
@@ -63,7 +68,7 @@
     margin-bottom: 20px;
 }
 
-.footer-form-title {
+.page-footer__form-title {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
@@ -72,8 +77,10 @@
     color: var(--main-color);
     margin-bottom: 20px;
 }
-
-.footer-form-input {
+.page-footer__form-label{
+margin-right: 14px;
+}
+.page-footer__form-input {
     width: 358px;
     height: 50px;
     border: 1px solid rgba(255, 255, 255, 0.3);
@@ -84,9 +91,7 @@
     font-size: 16px;
     line-height: 1.25;
     letter-spacing: 0.03em;
-    color: var(--main-color);
-    margin-right: 14px;
-    
+    color: var(--main-color); 
     &::placeholder {
         font-size: 16px;
         line-height: 1.25;
@@ -94,10 +99,10 @@
         color: rgba(255, 255, 255, 0.6);
     }
 }
-.footer-form-cont {
+.page-footer__form-cont {
     display: flex;
 }
-.footer-form-btn {
+.page-footer__form-btn {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -113,6 +118,6 @@
     border: none;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
-.foot-send {
+.page-footer__form-send {
     margin-left: 10px;
 }

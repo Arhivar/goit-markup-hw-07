@@ -26,6 +26,11 @@ img {
 
 .link {
     text-decoration: none;
+    transition: color var(--transitions-dur-and-func);   
+    &:hover,
+    &:focus {
+    color: var(--hover-color);
+    }
 }
 
 .portfolio-link-cont {
