@@ -1,4 +1,4 @@
-.about-cont {
+.page__about-cont {
     background-color: var(--thirst-font-color);
     display: flex;
     justify-content: center;
@@ -8,16 +8,16 @@
     border-radius: 4px;
 }
 
-.about-llst {
+.page__about-llst {
     display: flex;
     column-gap: 30px;
 }
 
-.about-list-item {
+.page__about-list-item {
     flex-basis: calc((100% - 90px) / 4);
 }
 
-.about-list-item-header {
+.page__about-list-item-header {
     margin-bottom: 10px;
     font-size: 14px;
     line-height: 1.14;
@@ -26,7 +26,7 @@
     color: var(--header-color);
 }
 
-.about-list-item-page {
+.page__about-list-item-page {
     font-size: 14px;
     line-height: 1.7;
     letter-spacing: 0.03em;

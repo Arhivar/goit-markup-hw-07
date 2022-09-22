@@ -1,14 +1,14 @@
-.page-work {
+.page__work {
     padding-top: 0;
 }
-.page-work-list {
+.page__work-list {
     display: flex;
     gap: 30px;
 }
-.work-list-li {
+.page__work-list-li {
     position: relative;
 }
-.page-work-header {
+.page__work-header {
     margin-bottom: 50px;
     font-size: 36px;
     line-height: 1.17;
@@ -16,7 +16,7 @@
     letter-spacing: 0.03em;
     color: var(--header-color);
 }
-.over-work-list {
+.page__work-desc {
     position: absolute;
     display: flex;
     justify-content: center;
